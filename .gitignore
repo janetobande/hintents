@@ -8,7 +8,6 @@ bin/
 
 # --- OS/System Files ---
 .DS_Store
-.env
 .env.example
 .cursorrules
 Thumbs.db
@@ -40,7 +39,6 @@ ishus.py
 create_phase9.py
 .gemini/
 .idea/
-.vscode/
 .next/
 
 ishus.py
@@ -71,6 +69,7 @@ commit_309*.next
 !package.json
 !package-lock.json
 !tsconfig*.json
+!vercel.json
 !perf_baseline.json
 
 .gocache
@@ -131,3 +130,7 @@ Resource.rc
 *.flamegraph.svg
 *.flamegraph.html
 .npm-cache/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
